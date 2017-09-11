@@ -25,7 +25,7 @@ SECRET_KEY = ')*wjhfb^p(gmx8wi2bw&nw0tps(5juwh!&8yh47$gvem(6$!qd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'eccarpenter.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'eccarpenter.pythonanywhere.com']
 
 
 # Application definition
