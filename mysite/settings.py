@@ -25,7 +25,7 @@ SECRET_KEY = ')*wjhfb^p(gmx8wi2bw&nw0tps(5juwh!&8yh47$gvem(6$!qd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [".herokuapp.com"]
 
 
 # Application definition
@@ -126,9 +126,7 @@ DATABASES['default'] = dj_database_url.config()
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = ['*']
-
-DEBUG = False
+ALLOWED_HOSTS = [".herokuapp.com"]
 
 try:
     from .local_settings import *
